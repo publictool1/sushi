@@ -1,0 +1,115 @@
+.second-container {
+    background-color: #B1454A;
+    color: white;
+    position: relative;
+    padding: 50px 0px;
+    cursor: default;
+
+    .china {
+        position: absolute;
+        font-size: 200px;
+        color:  #ffffff52;
+        top: -6%;
+        left: -9%;
+    }
+
+    .popular {
+        font-size: 56px;
+        text-align: center;
+    }
+
+    .buttons-choose {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        margin: 130px 0px 60px 0px;
+
+        .active {
+            color: #B1454A;
+            background-color: white;
+        }
+
+        button {
+            border: 1px solid #ffffff3d;
+            border-radius: 20px;
+            padding: 9px 30px;
+            background: #ffffff1c;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            color: white;
+            cursor: pointer;
+        }
+    }
+
+    .food-cards {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        padding: 50px;
+        align-items: flex-end;
+        position: relative;
+
+        button {
+            position: absolute;
+            border: 1px solid #ffffff3d;
+            border-radius: 50%;
+            // padding: 1px;
+            background: #ffffff1c;
+            display: flex;
+            align-items: center;
+            // gap: 15px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .left {
+            top: 50%;
+            left: 5%;
+        }
+
+        .right {
+            top: 50%;
+            right: 5%;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 320px;
+            justify-content: space-around;
+            border: 1px solid #ffffff3d;
+            border-radius: 36px;
+            padding: 30px;
+            background: #ffffff1c;
+
+            .mainPrice {
+                font-weight: bold;
+            }
+
+            p {
+                font-size: 20px;
+            }
+            
+            .stars {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                justify-content: space-between;
+
+                .star {
+                    display: flex;
+                    gap: 5px;
+                }
+            }
+        }
+
+        .active-card {
+            width: 320px;
+            height: 400px;
+            background-color: white;
+            color: black;
+        }
+    }
+}

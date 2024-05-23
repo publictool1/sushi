@@ -1,0 +1,94 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+    .china {
+        position: absolute;
+        color: rgba(177, 69, 74, 0.2509803922);
+        font-size: 120px;
+    }
+
+    .first {
+        right: 15%
+    }
+
+    .second {
+        top: 23%;
+        right: 15%;
+    }
+
+    .second-first {
+        left: 10%;
+    }
+
+    .second-second {
+        top: 24%;
+        left: 10%;
+    }
+
+    .left-container {
+        width: 50%;
+        display: flex;
+        gap: 15px;
+        padding: 80px;
+        flex-direction: column;
+
+        .trend {
+            color: #B1454A;
+            font-size: 18px;
+        }
+
+        h1 {
+            font-size: 64px;
+        }
+
+        .text-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 60%;
+
+            .food-have {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                justify-content: flex-start;
+                margin: 20px 0px;
+            }
+        }
+    }
+
+    .right-container {
+        width: 50%;
+        background-color: #FFF0DE;
+        position: relative;
+
+        img {
+            left: 30%;
+            position: absolute;
+            top: 27%;
+        }
+
+        .china {
+            position: absolute;
+        }
+    }
+}
+.third-container {
+    position: relative;
+
+    button {
+        position: absolute;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        padding: 50px 30px;
+        border: none;
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 100;
+    }
+}

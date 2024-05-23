@@ -1,0 +1,140 @@
+.header-container {
+    display: flex;
+    height: 100vh;
+    cursor: default;
+
+    .left-side_header {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        background-color: #B1454A;
+        width: 35%;
+
+        .logo-h1 {
+            font-weight: bold;
+            font-size: 24px;
+            padding: 40px;
+        }
+
+        .china {
+            font-size: 80px;
+            position: absolute
+        }
+
+        .first {
+            top: 52%;
+            left: 5%;
+        }
+
+        .second {
+            top: 65%;
+            left: 5%;
+        }
+        
+        .third {
+            top: 78%;
+            left: 5%;
+        }
+    }
+
+    .right-side_header {
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        nav {
+            display: flex;
+            justify-content: flex-end;
+            padding: 40px 40px 10px 40px;
+
+            li {
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: black !important;
+                    padding: 0px 25px;
+                }
+            }
+        }
+
+        .main-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+
+            .main-h1 {
+                font-size: 88px;
+                padding: 0px 25px;
+                text-align: center;
+            }
+
+            .main-p {
+                font-size: 18px;
+            }
+
+            .buttons {
+                display: flex;
+                gap: 40px;
+                margin: 20px;
+
+                button {
+                    border: none;
+                    background: transparent;
+                }
+
+                .order {
+                    display: flex;
+                    align-items: center;
+                    gap: 7px;
+                }
+
+                .order-now {
+                    background-color: black;
+                    color: white;
+                    cursor: pointer;
+                    padding: 11px 39px;
+                    border: none;
+                    border-radius: 46px;
+                }
+            }
+        }
+
+        .end-header {
+            background-color: #FFF0DE;
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 40px;
+
+            .border {
+                width: 2px; 
+                background-color: #ccc; 
+                margin: 0px 100px;
+            }
+
+            .left-end {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+
+                .number {
+                    font-size: 75px;
+                }
+
+                .customers {
+                    font-size: 20px;
+                }
+            }
+
+            .right-end {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+
+            }
+        }
+    }
+}

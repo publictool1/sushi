@@ -1,0 +1,40 @@
+.footer {
+    background-color: #FFF0DE;
+
+    .footer-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px;
+
+        nav {
+            display: flex;
+            justify-content: flex-end;
+            padding: 40px;
+
+            li {
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: black !important;
+                    padding: 0px 25px;
+                }
+            }
+        }  
+        
+        .links {
+            display: flex;
+            gap: 20px;
+
+            img {
+                cursor: pointer;
+            }
+        }
+
+        span {
+            color: #B1454A;    
+        } 
+    }
+}
